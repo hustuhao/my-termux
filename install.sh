@@ -17,7 +17,7 @@ install_packages() {
 # 函数：安装基础软件依赖
 install_base_dependencies() {
     echo "安装基础软件依赖..."
-    base_packages="git curl wget openssl openssh tmux neovim binutils"
+    base_packages="git curl wget openssl openssh tmux neovim binutils nodejs ripgrep"
     install_packages "$base_packages"
 }
 
